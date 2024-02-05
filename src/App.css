@@ -32,7 +32,35 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Button 1 */
+.button-yes {
+  background-color: #34d399;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}
+
+.button-yes:hover {
+  background-color: #059669;
+}
+
+/* Button 2 */
+.button-no {
+  background-color: #dc2626;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.button-no:hover {
+  background-color: #c53030;
 }
